@@ -1,0 +1,49 @@
+:root {
+  /*BASE*/
+  --night: #0B0B0C;
+  --obsidian: #141414;
+  --ash: #2A2A2A;
+
+  /*DESTAQUE*/
+  --amber:#C58A3A;
+  --copper:#8C5A2B;
+
+  /*TEXTO*/
+  --bone-100: #E6E0D6;
+  --bone-80: rgba(230,224,214,0.8);
+  --bone-60: rgba(230,224,214,0.6);
+
+  --blood:#5A1A1A;
+
+
+
+  --gray-700: #272f43;
+  --gray-800: #181f2e;
+  --gray-900: #0a0f1a;
+
+  --primary-light: #4de7b7;
+  --primary: #0da170;
+  --primary-dark: #065f46;
+
+  --link-color: #10b981;
+  --link-hover: #0b8a60;
+
+  --success: #22c55e;
+  --warning: #eab308;
+  --error: #991b1b;
+  --info: #0ea5e9;
+
+  --text-over-primary: #0a0f1a;
+  --text-over-primary-dark: #e6e9f0;
+  --text-over-primary-light: #0a0f1a;
+  --text-over-success: #0a0f1a;
+  --text-over-warning: #0a0f1a;
+  --text-over-error: #e6e9f0;
+  --text-over-info: #0a0f1a;
+
+  --text-default: #e6e9f0;
+  --text-muted: #aab3cc;
+
+  --disabled: #555f7d;
+  --text-disabled: #aab3cc;
+}
