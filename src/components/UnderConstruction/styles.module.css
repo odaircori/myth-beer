@@ -45,3 +45,25 @@
   font-size: clamp(1.5rem, 3.5vw, 1.2rem);
   margin-top: 1.6rem;
 }
+
+.instagram {
+  margin-top: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.9rem 1.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(197, 138, 58, 0.45);
+  color: var(--bone-80);
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.instagram:hover,
+.instagram:focus-visible {
+  color: #fff;
+  border-color: rgba(197, 138, 58, 0.9);
+  background: rgba(197, 138, 58, 0.12);
+}

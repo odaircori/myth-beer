@@ -17,6 +17,14 @@ export function UnderConstruction() {
             Os deuses forjam os barris e gravam as runas sagradas. Em breve,
             abriremos os portões para o próximo brinde lendário.
           </p>
+          <a
+            className={styles.instagram}
+            href="https://www.instagram.com/mythbeer"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Siga a MythBeer no Instagram
+          </a>
         </div>
       </main>
     </Container>
