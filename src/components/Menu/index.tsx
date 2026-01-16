@@ -1,20 +1,31 @@
-import styles from "./styles.module.css";
+import styles from './styles.module.css';
 
 export function Menu() {
   return (
-    <div className={styles.menu}>
-      <ul>
+    <nav className={styles.menu}>
+      <a className={styles.brand} href="#inicio">
+        MythBeer
+      </a>
+      <ul className={styles.menuList}>
         <li>
-          <a href="#" className={styles.menuLink}>
-            MythBeer
+          <a href="#degustacao" className={styles.menuLink}>
+            Degustação
           </a>
         </li>
         <li>
-          <a href="#" className={styles.menuLink}>
-            Panteão
+          <a href="#colecao" className={styles.menuLink}>
+            Coleção
+          </a>
+        </li>
+        <li>
+          <a href="#contato" className={styles.menuLink}>
+            Contato
           </a>
         </li>
       </ul>
-    </div>
+      <a className={styles.cta} href="#degustacao">
+        Agendar
+      </a>
+    </nav>
   );
 }
