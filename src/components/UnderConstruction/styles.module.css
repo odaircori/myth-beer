@@ -42,6 +42,6 @@
 .lead {
   color: var(--bone-80);
   line-height: 1.6;
-  font-size: clamp(1rem, 3.5vw, 1.2rem);
+  font-size: clamp(1.5rem, 3.5vw, 1.2rem);
   margin-top: 1.6rem;
 }
