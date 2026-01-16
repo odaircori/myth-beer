@@ -7,7 +7,16 @@
 }
 
 .site-header {
-  padding: 3.2rem 0 2.4rem;
+  padding: 3.2rem 0 0 0;
+}
+
+header {
+  display:flex;
+  justify-content: space-between;
+}
+
+header img {
+  width:30%;
 }
 
 .hero {
