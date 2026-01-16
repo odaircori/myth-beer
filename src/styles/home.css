@@ -127,6 +127,32 @@ header img {
   box-shadow: inset 0 0 0 1px rgba(20, 20, 20, 0.2);
 }
 
+.card--with-image {
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__image {
+  width: 100%;
+  height: 18rem;
+  object-fit: cover;
+  display: block;
+  filter: saturate(1.1);
+}
+
+.card__body {
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card__body .tag {
+  margin-top: auto;
+}
+
 .card--ghost {
   background: transparent;
   border: 1px dashed rgba(197, 138, 58, 0.35);

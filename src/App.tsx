@@ -64,29 +64,53 @@ export function App() {
               </p>
             </div>
             <div className="grid">
-              <article className="card">
-                <h3>Valquíria Lager</h3>
-                <p>
-                  Leve, dourada e perfumada com flor de laranjeira. Para brindar
-                  vitória e coragem.
-                </p>
-                <span className="tag">4.8% ABV</span>
+              <article className="card card--with-image">
+                <img
+                  className="card__image"
+                  src="https://images.unsplash.com/photo-1514218953589-2d7f29b3961d?auto=format&fit=crop&w=800&q=80"
+                  alt="Copo de cerveja dourada da Valquíria Lager"
+                  loading="lazy"
+                />
+                <div className="card__body">
+                  <h3>Valquíria Lager</h3>
+                  <p>
+                    Leve, dourada e perfumada com flor de laranjeira. Para
+                    brindar vitória e coragem.
+                  </p>
+                  <span className="tag">4.8% ABV</span>
+                </div>
               </article>
-              <article className="card">
-                <h3>Kraken Stout</h3>
-                <p>
-                  Corpo intenso, notas de café e cacau. Ideal para noites de
-                  tempestade.
-                </p>
-                <span className="tag">7.2% ABV</span>
+              <article className="card card--with-image">
+                <img
+                  className="card__image"
+                  src="https://images.unsplash.com/photo-1481391032119-d89fee407e44?auto=format&fit=crop&w=800&q=80"
+                  alt="Cerveja escura da Kraken Stout em copo robusto"
+                  loading="lazy"
+                />
+                <div className="card__body">
+                  <h3>Kraken Stout</h3>
+                  <p>
+                    Corpo intenso, notas de café e cacau. Ideal para noites de
+                    tempestade.
+                  </p>
+                  <span className="tag">7.2% ABV</span>
+                </div>
               </article>
-              <article className="card">
-                <h3>Néctar de Atena</h3>
-                <p>
-                  Belgian ale com mel silvestre e especiarias. Sabedoria em cada
-                  gole.
-                </p>
-                <span className="tag">6.1% ABV</span>
+              <article className="card card--with-image">
+                <img
+                  className="card__image"
+                  src="https://images.unsplash.com/photo-1474722883778-792e7990302f?auto=format&fit=crop&w=800&q=80"
+                  alt="Copo de cerveja clara do Néctar de Atena"
+                  loading="lazy"
+                />
+                <div className="card__body">
+                  <h3>Néctar de Atena</h3>
+                  <p>
+                    Belgian ale com mel silvestre e especiarias. Sabedoria em
+                    cada gole.
+                  </p>
+                  <span className="tag">6.1% ABV</span>
+                </div>
               </article>
             </div>
           </section>
