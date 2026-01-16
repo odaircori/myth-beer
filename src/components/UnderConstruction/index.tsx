@@ -1,6 +1,7 @@
 import { Container } from '@/components/Container';
 import { Logo } from '@/components/Logo';
 import styles from './styles.module.css';
+import { FaInstagram } from 'react-icons/fa';
 
 export function UnderConstruction() {
   return (
@@ -22,9 +23,7 @@ export function UnderConstruction() {
             target="_blank"
             rel="noreferrer"
           >
-            <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
-              <path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Zm0 2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7Zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Zm5.75-3.65a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0Z" />
-            </svg>
+            <FaInstagram />
             Siga a MythBeer no Instagram
           </a>
         </div>
